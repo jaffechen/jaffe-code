@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01布局</title>
+</head>
+
+<body>
+     <!-- 父级  -->
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+
+</body>
+
+</html>
+<style>
+    .container {
+        widows: 600px;
+        height: 405px;
+        background: #bfbfbf;
+
+        /*应用布局*/
+        display: flex;
+
+        
+         /*Y轴布局*/
+        /* flex-direction: column; */
+        flex-direction: ;
+
+    
+
+        /* X轴布局 */
+        /* justify-content: center; */
+        /* justify-content: space-between; */
+
+        /* 垂直居中 */
+        /* align-items: center; */ */
+
+        
+
+        
+
+    }
+
+
+
+
+    /* 公共样式 */
+    .box {
+        width: 64px;
+        height: 64px;
+        color: #fff;
+        text-align: center;
+        background: blue;
+    }
+
+    /*奇数的盒子*/
+    .box:nth-child(odd) {
+        background: red;
+    }
+</style>
